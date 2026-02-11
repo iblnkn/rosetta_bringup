@@ -1,0 +1,4 @@
+teleop:
+  joy_config: "ps3"
+  joy_dev: "0"
+  publish_stamped_twist: "true"

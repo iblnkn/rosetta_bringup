@@ -1,0 +1,10 @@
+# Episode Recorder overrides for TurtleBot3 simulation
+# Base defaults come from rosetta/params/episode_recorder.yaml.
+# Values here override those defaults for the sim environment.
+
+turtlebot_recorder:
+  contract: "turtlebot3.yaml"
+  use_sim_time: true
+  log_level: "info"
+  configure: true
+  activate: true

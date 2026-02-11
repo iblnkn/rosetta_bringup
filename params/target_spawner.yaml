@@ -1,0 +1,6 @@
+target_spawner:
+  ros__parameters:
+    spawn_x_min: -1.5
+    spawn_x_max: 1.5
+    spawn_y_min: -1.5
+    spawn_y_max: 1.5

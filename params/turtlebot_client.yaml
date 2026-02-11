@@ -1,0 +1,11 @@
+# Rosetta Client overrides for TurtleBot3 simulation
+# Base defaults come from rosetta/params/rosetta_client.yaml.
+# Values here override those defaults for the sim environment.
+
+turtlebot_client:
+  contract: "turtlebot3.yaml"
+  pretrained_name_or_path: "/workspaces/rosetta_ws/models/ACT/checkpoints/100000/pretrained_model"
+  use_sim_time: true
+  log_level: "info"
+  configure: true
+  activate: true

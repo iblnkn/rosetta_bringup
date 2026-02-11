@@ -1,0 +1,6 @@
+gazebo_world:
+  turtlebot3_model: "waffle"
+  x_pose: "-2.0"
+  y_pose: "-0.5"
+
+  use_sim_time: true
